@@ -1,0 +1,8 @@
+rootProject.name = 'jdbc-on-fingers'
+
+include 'example-jdbc'
+include 'example-jdbc-datasource'
+include 'example-jdbc-hikaricp'
+include 'example-jdbc-template'
+include 'example-sql2o'
+include 'example-flyway'
