@@ -1,0 +1,14 @@
+plugins {
+	id 'application'
+}
+
+repositories {
+	jcenter()
+}
+
+
+dependencies {
+	implementation 'org.postgresql:postgresql:42.2.5'
+}
+
+mainClassName = 'example.jdbc.Main'

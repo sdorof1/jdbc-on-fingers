@@ -1,0 +1,15 @@
+plugins {
+	id 'application'
+	id 'io.franzbecker.gradle-lombok' version '1.14'
+}
+
+repositories {
+	jcenter()
+}
+
+mainClassName = 'example.jdbc.Main'
+
+dependencies {
+	implementation 'org.postgresql:postgresql:42.2.5'
+	implementation 'org.springframework:spring-jdbc:4.3.6.RELEASE'
+}
